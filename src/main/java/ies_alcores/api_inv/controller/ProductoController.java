@@ -1,5 +1,6 @@
 package ies_alcores.api_inv.controller;
 
+import ies_alcores.api_inv.model.Categoria;
 import ies_alcores.api_inv.model.Producto;
 import ies_alcores.api_inv.service.ProductoService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,10 +8,11 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
 @RestController
 @RequestMapping("/api/inv")
+@CrossOrigin(origins = "http://localhost:4200") // IMPORTANTE: Esto permite que Angular se conecte
 public class ProductoController {
+
     @Autowired
     private ProductoService productoService;
 
@@ -29,4 +31,12 @@ public class ProductoController {
         return productoService.buscarConQuery(nombre);
     }
 
+    @PostMapping("/guardar")
+    public ResponseEntity<Producto> save(@RequestBody Producto producto) {
+        return ResponseEntity.ok(this.productoService.save(producto));
+    }
+
+    // Para probar en ProductoController.java
+    @GetMapping("/categorias")
+    public List<Categoria> getCategorias() { return productoService.findAllCategoriasCompletas(); }
 }
