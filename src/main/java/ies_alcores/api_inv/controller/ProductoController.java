@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 @RestController
 @RequestMapping("/api/inv")
-@CrossOrigin(origins = "http://localhost:4200") // IMPORTANTE: Esto permite que Angular se conecte
+@CrossOrigin(origins = "http://localhost:4200")
 public class ProductoController {
 
     @Autowired
