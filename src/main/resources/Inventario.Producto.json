@@ -1,0 +1,651 @@
+[{
+  "_id": 1,
+  "Marca": "Apple",
+  "Modelo": "Iphone17",
+  "Precio": 1150.99,
+  "Stock": 100,
+  "Fecha_lanzamiento": "10-03-2026",
+  "Categoria": {
+    "id": 1,
+    "Nombre": "Telefonos"
+  }
+},
+{
+  "_id": 2,
+  "Marca": "Samsung",
+  "Modelo": "Galaxy S26 Ultra",
+  "Precio": 1299,
+  "Stock": 85,
+  "Fecha_lanzamiento": "15-02-2026",
+  "Categoria": {
+    "id": 1,
+    "Nombre": "Telefonos"
+  }
+},
+{
+  "_id": 3,
+  "Marca": "Apple",
+  "Modelo": "MacBook Air M4",
+  "Precio": 1450.5,
+  "Stock": 40,
+  "Fecha_lanzamiento": "20-01-2026",
+  "Categoria": {
+    "id": 2,
+    "Nombre": "Laptops"
+  }
+},
+{
+  "_id": 4,
+  "Marca": "Sony",
+  "Modelo": "WH-1000XM6",
+  "Precio": 399.99,
+  "Stock": 150,
+  "Fecha_lanzamiento": "12-11-2025",
+  "Categoria": {
+    "id": 3,
+    "Nombre": "Audio"
+  }
+},
+{
+  "_id": 5,
+  "Marca": "Google",
+  "Modelo": "Pixel 10 Pro",
+  "Precio": 999,
+  "Stock": 60,
+  "Fecha_lanzamiento": "05-10-2025",
+  "Categoria": {
+    "id": 1,
+    "Nombre": "Telefonos"
+  }
+},
+{
+  "_id": 6,
+  "Marca": "Xiaomi",
+  "Modelo": "Redmi Note 15",
+  "Precio": 299.95,
+  "Stock": 200,
+  "Fecha_lanzamiento": "22-03-2026",
+  "Categoria": {
+    "id": 1,
+    "Nombre": "Telefonos"
+  }
+},
+{
+  "_id": 7,
+  "Marca": "Dell",
+  "Modelo": "XPS 13 Plus",
+  "Precio": 1750,
+  "Stock": 25,
+  "Fecha_lanzamiento": "18-12-2025",
+  "Categoria": {
+    "id": 2,
+    "Nombre": "Laptops"
+  }
+},
+{
+  "_id": 8,
+  "Marca": "Apple",
+  "Modelo": "iPad Pro M3",
+  "Precio": 1099,
+  "Stock": 55,
+  "Fecha_lanzamiento": "10-05-2025",
+  "Categoria": {
+    "id": 4,
+    "Nombre": "Tablets"
+  }
+},
+{
+  "_id": 9,
+  "Marca": "Nintendo",
+  "Modelo": "Switch 2",
+  "Precio": 449.99,
+  "Stock": 300,
+  "Fecha_lanzamiento": "01-03-2026",
+  "Categoria": {
+    "id": 5,
+    "Nombre": "Consolas"
+  }
+},
+{
+  "_id": 10,
+  "Marca": "Asus",
+  "Modelo": "ROG Zephyrus G14",
+  "Precio": 2100,
+  "Stock": 15,
+  "Fecha_lanzamiento": "14-01-2026",
+  "Categoria": {
+    "id": 2,
+    "Nombre": "Laptops"
+  }
+},
+{
+  "_id": 11,
+  "Marca": "Samsung",
+  "Modelo": "Galaxy Watch 8",
+  "Precio": 349,
+  "Stock": 120,
+  "Fecha_lanzamiento": "28-08-2025",
+  "Categoria": {
+    "id": 6,
+    "Nombre": "Wearables"
+  }
+},
+{
+  "_id": 12,
+  "Marca": "Microsoft",
+  "Modelo": "Surface Pro 11",
+  "Precio": 1199.99,
+  "Stock": 45,
+  "Fecha_lanzamiento": "15-09-2025",
+  "Categoria": {
+    "id": 4,
+    "Nombre": "Tablets"
+  }
+},
+{
+  "_id": 13,
+  "Marca": "HP",
+  "Modelo": "Spectre x360",
+  "Precio": 1350,
+  "Stock": 30,
+  "Fecha_lanzamiento": "10-11-2025",
+  "Categoria": {
+    "id": 2,
+    "Nombre": "Laptops"
+  }
+},
+{
+  "_id": 14,
+  "Marca": "Bose",
+  "Modelo": "QuietComfort Ultra",
+  "Precio": 429,
+  "Stock": 80,
+  "Fecha_lanzamiento": "05-12-2025",
+  "Categoria": {
+    "id": 3,
+    "Nombre": "Audio"
+  }
+},
+{
+  "_id": 15,
+  "Marca": "Garmin",
+  "Modelo": "Fenix 8",
+  "Precio": 799,
+  "Stock": 40,
+  "Fecha_lanzamiento": "19-02-2026",
+  "Categoria": {
+    "id": 6,
+    "Nombre": "Wearables"
+  }
+},
+{
+  "_id": 16,
+  "Marca": "Logitech",
+  "Modelo": "MX Master 3S",
+  "Precio": 99.99,
+  "Stock": 500,
+  "Fecha_lanzamiento": "12-06-2025",
+  "Categoria": {
+    "id": 7,
+    "Nombre": "Accesorios"
+  }
+},
+{
+  "_id": 17,
+  "Marca": "Razer",
+  "Modelo": "BlackWidow V4",
+  "Precio": 189.99,
+  "Stock": 75,
+  "Fecha_lanzamiento": "30-10-2025",
+  "Categoria": {
+    "id": 7,
+    "Nombre": "Accesorios"
+  }
+},
+{
+  "_id": 18,
+  "Marca": "Lenovo",
+  "Modelo": "ThinkPad X1 Carbon",
+  "Precio": 1650,
+  "Stock": 20,
+  "Fecha_lanzamiento": "14-03-2026",
+  "Categoria": {
+    "id": 2,
+    "Nombre": "Laptops"
+  }
+},
+{
+  "_id": 19,
+  "Marca": "Sony",
+  "Modelo": "PlayStation 5 Pro",
+  "Precio": 699,
+  "Stock": 100,
+  "Fecha_lanzamiento": "15-11-2025",
+  "Categoria": {
+    "id": 5,
+    "Nombre": "Consolas"
+  }
+},
+{
+  "_id": 20,
+  "Marca": "GoPro",
+  "Modelo": "Hero 13 Black",
+  "Precio": 449,
+  "Stock": 90,
+  "Fecha_lanzamiento": "08-09-2025",
+  "Categoria": {
+    "id": 8,
+    "Nombre": "Camaras"
+  }
+},
+{
+  "_id": 21,
+  "Marca": "Canon",
+  "Modelo": "EOS R10",
+  "Precio": 899,
+  "Stock": 35,
+  "Fecha_lanzamiento": "22-01-2026",
+  "Categoria": {
+    "id": 8,
+    "Nombre": "Camaras"
+  }
+},
+{
+  "_id": 22,
+  "Marca": "Samsung",
+  "Modelo": "Galaxy Tab S10",
+  "Precio": 850,
+  "Stock": 65,
+  "Fecha_lanzamiento": "04-02-2026",
+  "Categoria": {
+    "id": 4,
+    "Nombre": "Tablets"
+  }
+},
+{
+  "_id": 23,
+  "Marca": "Meta",
+  "Modelo": "Quest 4",
+  "Precio": 599.99,
+  "Stock": 110,
+  "Fecha_lanzamiento": "10-10-2025",
+  "Categoria": {
+    "id": 9,
+    "Nombre": "VR"
+  }
+},
+{
+  "_id": 24,
+  "Marca": "Apple",
+  "Modelo": "Watch Series 11",
+  "Precio": 429,
+  "Stock": 140,
+  "Fecha_lanzamiento": "18-09-2025",
+  "Categoria": {
+    "id": 6,
+    "Nombre": "Wearables"
+  }
+},
+{
+  "_id": 25,
+  "Marca": "Nvidia",
+  "Modelo": "RTX 5080",
+  "Precio": 1199,
+  "Stock": 30,
+  "Fecha_lanzamiento": "15-01-2026",
+  "Categoria": {
+    "id": 10,
+    "Nombre": "Componentes"
+  }
+},
+{
+  "_id": 26,
+  "Marca": "Corsair",
+  "Modelo": "Vengeance 32GB DDR5",
+  "Precio": 150,
+  "Stock": 200,
+  "Fecha_lanzamiento": "05-08-2025",
+  "Categoria": {
+    "id": 10,
+    "Nombre": "Componentes"
+  }
+},
+{
+  "_id": 27,
+  "Marca": "Nothing",
+  "Modelo": "Phone (3)",
+  "Precio": 650,
+  "Stock": 95,
+  "Fecha_lanzamiento": "12-07-2025",
+  "Categoria": {
+    "id": 1,
+    "Nombre": "Telefonos"
+  }
+},
+{
+  "_id": 28,
+  "Marca": "DJI",
+  "Modelo": "Mini 5 Pro",
+  "Precio": 759,
+  "Stock": 50,
+  "Fecha_lanzamiento": "20-03-2026",
+  "Categoria": {
+    "id": 11,
+    "Nombre": "Drones"
+  }
+},
+{
+  "_id": 29,
+  "Marca": "SteelSeries",
+  "Modelo": "Arctis Nova Pro",
+  "Precio": 349.99,
+  "Stock": 60,
+  "Fecha_lanzamiento": "14-06-2025",
+  "Categoria": {
+    "id": 3,
+    "Nombre": "Audio"
+  }
+},
+{
+  "_id": 30,
+  "Marca": "LG",
+  "Modelo": "UltraGear 27\"",
+  "Precio": 499,
+  "Stock": 40,
+  "Fecha_lanzamiento": "02-12-2025",
+  "Categoria": {
+    "id": 12,
+    "Nombre": "Monitores"
+  }
+},
+{
+  "_id": 31,
+  "Marca": "Samsung",
+  "Modelo": "Odyssey G9",
+  "Precio": 1399,
+  "Stock": 15,
+  "Fecha_lanzamiento": "10-11-2025",
+  "Categoria": {
+    "id": 12,
+    "Nombre": "Monitores"
+  }
+},
+{
+  "_id": 32,
+  "Marca": "Beats",
+  "Modelo": "Studio Pro",
+  "Precio": 349,
+  "Stock": 120,
+  "Fecha_lanzamiento": "15-07-2025",
+  "Categoria": {
+    "id": 3,
+    "Nombre": "Audio"
+  }
+},
+{
+  "_id": 33,
+  "Marca": "Huawei",
+  "Modelo": "Mate 70 Pro",
+  "Precio": 1050,
+  "Stock": 40,
+  "Fecha_lanzamiento": "05-01-2026",
+  "Categoria": {
+    "id": 1,
+    "Nombre": "Telefonos"
+  }
+},
+{
+  "_id": 34,
+  "Marca": "Western Digital",
+  "Modelo": "SN850X 2TB",
+  "Precio": 189,
+  "Stock": 150,
+  "Fecha_lanzamiento": "11-09-2025",
+  "Categoria": {
+    "id": 10,
+    "Nombre": "Componentes"
+  }
+},
+{
+  "_id": 35,
+  "Marca": "Kindle",
+  "Modelo": "Paperwhite 6",
+  "Precio": 159.99,
+  "Stock": 300,
+  "Fecha_lanzamiento": "20-10-2025",
+  "Categoria": {
+    "id": 4,
+    "Nombre": "Tablets"
+  }
+},
+{
+  "_id": 36,
+  "Marca": "Sonos",
+  "Modelo": "Era 300",
+  "Precio": 449,
+  "Stock": 55,
+  "Fecha_lanzamiento": "14-04-2025",
+  "Categoria": {
+    "id": 3,
+    "Nombre": "Audio"
+  }
+},
+{
+  "_id": 37,
+  "Marca": "OnePlus",
+  "Modelo": "13",
+  "Precio": 799,
+  "Stock": 80,
+  "Fecha_lanzamiento": "12-12-2025",
+  "Categoria": {
+    "id": 1,
+    "Nombre": "Telefonos"
+  }
+},
+{
+  "_id": 38,
+  "Marca": "Keychron",
+  "Modelo": "Q1 Pro",
+  "Precio": 199,
+  "Stock": 45,
+  "Fecha_lanzamiento": "05-05-2025",
+  "Categoria": {
+    "id": 7,
+    "Nombre": "Accesorios"
+  }
+},
+{
+  "_id": 39,
+  "Marca": "Anker",
+  "Modelo": "737 Power Bank",
+  "Precio": 149.99,
+  "Stock": 250,
+  "Fecha_lanzamiento": "18-08-2025",
+  "Categoria": {
+    "id": 7,
+    "Nombre": "Accesorios"
+  }
+},
+{
+  "_id": 40,
+  "Marca": "Sennheiser",
+  "Modelo": "Momentum 4",
+  "Precio": 379,
+  "Stock": 70,
+  "Fecha_lanzamiento": "02-09-2025",
+  "Categoria": {
+    "id": 3,
+    "Nombre": "Audio"
+  }
+},
+{
+  "_id": 41,
+  "Marca": "Acer",
+  "Modelo": "Predator Helios",
+  "Precio": 1899,
+  "Stock": 25,
+  "Fecha_lanzamiento": "15-02-2026",
+  "Categoria": {
+    "id": 2,
+    "Nombre": "Laptops"
+  }
+},
+{
+  "_id": 42,
+  "Marca": "Fitbit",
+  "Modelo": "Charge 7",
+  "Precio": 179.99,
+  "Stock": 180,
+  "Fecha_lanzamiento": "10-10-2025",
+  "Categoria": {
+    "id": 6,
+    "Nombre": "Wearables"
+  }
+},
+{
+  "_id": 43,
+  "Marca": "Elgato",
+  "Modelo": "Stream Deck MK.2",
+  "Precio": 149,
+  "Stock": 130,
+  "Fecha_lanzamiento": "14-07-2025",
+  "Categoria": {
+    "id": 7,
+    "Nombre": "Accesorios"
+  }
+},
+{
+  "_id": 44,
+  "Marca": "Microsoft",
+  "Modelo": "Xbox Series X Elite",
+  "Precio": 599,
+  "Stock": 60,
+  "Fecha_lanzamiento": "05-11-2025",
+  "Categoria": {
+    "id": 5,
+    "Nombre": "Consolas"
+  }
+},
+{
+  "_id": 45,
+  "Marca": "Razer",
+  "Modelo": "Blade 16",
+  "Precio": 2999,
+  "Stock": 10,
+  "Fecha_lanzamiento": "20-01-2026",
+  "Categoria": {
+    "id": 2,
+    "Nombre": "Laptops"
+  }
+},
+{
+  "_id": 46,
+  "Marca": "JBL",
+  "Modelo": "Flip 7",
+  "Precio": 129,
+  "Stock": 400,
+  "Fecha_lanzamiento": "12-05-2025",
+  "Categoria": {
+    "id": 3,
+    "Nombre": "Audio"
+  }
+},
+{
+  "_id": 47,
+  "Marca": "Gigabyte",
+  "Modelo": "M27Q",
+  "Precio": 329,
+  "Stock": 85,
+  "Fecha_lanzamiento": "18-09-2025",
+  "Categoria": {
+    "id": 12,
+    "Nombre": "Monitores"
+  }
+},
+{
+  "_id": 48,
+  "Marca": "Wacom",
+  "Modelo": "Intuos Pro",
+  "Precio": 379,
+  "Stock": 40,
+  "Fecha_lanzamiento": "25-06-2025",
+  "Categoria": {
+    "id": 7,
+    "Nombre": "Accesorios"
+  }
+},
+{
+  "_id": 49,
+  "Marca": "Insta360",
+  "Modelo": "X4",
+  "Precio": 499,
+  "Stock": 65,
+  "Fecha_lanzamiento": "08-03-2026",
+  "Categoria": {
+    "id": 8,
+    "Nombre": "Camaras"
+  }
+},
+{
+  "_id": 50,
+  "Marca": "Marshall",
+  "Modelo": "Emberton III",
+  "Precio": 169,
+  "Stock": 110,
+  "Fecha_lanzamiento": "15-08-2025",
+  "Categoria": {
+    "id": 3,
+    "Nombre": "Audio"
+  }
+},
+{
+  "_id": 51,
+  "Marca": "Nikon",
+  "Modelo": "Z50 II",
+  "Precio": 949,
+  "Stock": 22,
+  "Fecha_lanzamiento": "04-02-2026",
+  "Categoria": {
+    "id": 8,
+    "Nombre": "Camaras"
+  }
+},
+{
+  "_id": 19973,
+  "Marca": "ejemplo front",
+  "Modelo": "Manuel",
+  "Precio": 100,
+  "Stock": 1,
+  "Fecha_lanzamiento": "2026-04-27",
+  "Categoria": {
+    "id": 0,
+    "Nombre": "VR"
+  },
+  "_class": "ies_alcores.api_inv.model.Producto"
+},
+{
+  "_id": 46446,
+  "Marca": "ManuelSL",
+  "Modelo": "MaxProCooper",
+  "Precio": 10000,
+  "Stock": 100,
+  "Fecha_lanzamiento": "2026-04-27",
+  "Categoria": {
+    "id": 0,
+    "Nombre": "Consolas"
+  },
+  "_class": "ies_alcores.api_inv.model.Producto"
+},
+{
+  "_id": 69901,
+  "Marca": "fdadad",
+  "Modelo": "fsfsf",
+  "Precio": 1111,
+  "Stock": 133,
+  "Fecha_lanzamiento": "2026-04-30",
+  "Categoria": {
+    "id": 12,
+    "Nombre": "Monitores"
+  },
+  "_class": "ies_alcores.api_inv.model.Producto"
+}]
